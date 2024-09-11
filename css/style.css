@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8B4513;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F0E68C;
+    letter-spacing: 0.4rem;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+header button {
+    background-color: #F0E68C;
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+
+.first-section {
+    position: relative;
+}
+
+section input {
+    width: 30rem;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #D2691E;
+    border: 1px solid #F0E68C;
+}
+
+section input:focus,
+section input:active {
+    color: #F0E68C;
+}
+
+section input::placeholder {
+    color: #F0E68C;
+}
+
+
+section button {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #F0E68C;
+    background-color: #D2691E;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: 1px solid #F0E68C;
+    cursor: pointer;
+}
+
+.search-results {
+    width: 60rem;
+    height: 50vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.search-results .item-result {
+    background-color: #CD853F;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 0.7rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* class no-result to change the p element's color within the jasvascript code*/
+.no-results {
+    color: #F0E68C;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.item-result h2 {
+    font-size: 2rem;
+}
+
+.item-result a {
+    text-decoration: none;
+    color: #F0E68C;
+}
+
+.item-result a:hover {
+    text-decoration: underline;
+}
+
+.item-result .video-link,
+.item-result .video-link:hover {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.video-link:hover {
+    color: #8B4513;
+}
+
+.about-meta {
+    text-align: start;
+    color: #8B4513;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CD853F;
+    border-radius: 2rem;
+}
+
+footer {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: auto;
+    color: #F0E68C;
+    background-color: #d2691e;
+    text-align: center;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #F0E68C;
+}
+
+footer a:hover {
+    color: #8B4513;
+}
+
+/* Styles for small screens (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    .item-result h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    section input {
+        width: 18rem;
+        color: #F0E68C;
+    }
+
+    .search-results {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .item-result {
+        width: 100%;
+    }
+
+    .about-meta {
+        text-align: justify;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
+
+    header {
+        margin-top: 6rem;
+
+    }
+
+    .search-results {
+        padding: 5rem;
+    }
+
+    .search-results .item-result {
+        padding: 1.5rem;
+    }
+
+    footer {
+        padding: 0.1rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .search-results {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .item-result {
+        width: 100%;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
