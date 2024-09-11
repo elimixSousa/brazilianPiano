@@ -31,7 +31,7 @@ Free!
 
 ## Developer
 
-* **Elisandro Sousa:**
+* **Elisandro Sousa**
 
 ## Acknowledgments
 
@@ -73,7 +73,7 @@ Livre!
 
 ## Desenvolvedor
 
-* **Elisandro Sousa:**
+* **Elisandro Sousa**
 
 ## Agradecimentos
 
