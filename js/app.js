@@ -19,10 +19,10 @@ function pauseSong() {
 function playPauseDecider() {
     if (isPlaying === true) {
         pauseSong();
-    };
+    }
     else {
         playSong();
-    };
+    }
 };
 
 play.addEventListener('click', playPauseDecider);
