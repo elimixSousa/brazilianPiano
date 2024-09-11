@@ -1,4 +1,4 @@
-# Brazilian Classical Piano (English)
+# Brazilian Classical Piano ### (English)
 
 This repository contains the source code for a digital library dedicated to Brazilian classical composers. The project aims to provide an intuitive platform for research and study of the lives and works of these artists, with a focus on piano composers.
 
@@ -40,7 +40,7 @@ A big hug to all of you! ;)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Brazilian Classical Piano (Portuguese)
+# Brazilian Classical Piano ### (Portuguese)
 
 Este repositório contém o código fonte de uma biblioteca digital dedicada aos compositores clássicos brasileiros. O projeto tem como objetivo fornecer uma plataforma intuitiva para pesquisa e estudo sobre a vida e obra desses artistas, com foco em compositores de piano.
 
