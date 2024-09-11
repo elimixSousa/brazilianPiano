@@ -1,8 +1,7 @@
 const song = document.getElementById('audio');
 const play = document.getElementById('play');
 
-// It starts true, 'cause when someone loads the page the song plays automatically.
-let isPlaying = true;
+let isPlaying = false;
 
 function playSong() {
     play.querySelector('.bi').classList.remove('bi-play-fill');
@@ -17,19 +16,14 @@ function pauseSong() {
     isPlaying = false;
 };
 
-/*Automatically plays the song when someone loads the page,
-before the decider function.
-*/
-playSong();
-
 function playPauseDecider() {
     if (isPlaying === true) {
         pauseSong();
-    }
+    };
     else {
         playSong();
-    }
-}
+    };
+};
 
 play.addEventListener('click', playPauseDecider);
 
