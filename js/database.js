@@ -61,5 +61,12 @@ let allData = [
         link: 'https://musicabrasilis.org.br/compositores/zequinha-de-abreu',
         video: 'https://www.youtube.com/watch?v=xfKIrZpZQ5c',
         tags: 'zequinha de abreu choro tico tico no fubá música brasileira piano brasileiro chorinho classico clássica classica'
+    },
+    {
+        name: 'Brasílio Itiberê da Cunha',
+        about: 'Compositor, bacharel em direito e diplomata brasileiro, pioneiro na utilização de temas folclóricos na criação musical clássica no Brasil. É autor da famosa rapsódia "A Sertaneja" e conhecido por suas composições para piano e música de câmara.',
+        link: 'https://musicabrasilis.org.br/compositores/brasilio-itibere-da-cunha',
+        video: 'https://www.youtube.com/watch?v=zvTnHamibDU',
+        tags: 'brasilio itibere da cunha compositor brasileiro música clássica rapsódia a sertaneja piano música de câmara folclore classica musica rapsodia'
     }
 ];
