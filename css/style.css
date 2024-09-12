@@ -127,12 +127,11 @@ section button {
 }
 
 .item-result a {
-    text-decoration: none;
     color: #F0E68C;
 }
 
 .item-result a:hover {
-    text-decoration: underline;
+    color: #8B4513;
 }
 
 .item-result .video-link,
