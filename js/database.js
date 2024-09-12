@@ -53,14 +53,14 @@ let allData = [
         about: ' Compositor de choro, Nazareth também compôs obras eruditas. Suas valsas e maxixes são considerados clássicos da música brasileira.',
         link: 'https://musicabrasilis.org.br/compositores/ernesto-nazareth',
         video: 'https://www.youtube.com/watch?v=2fhAFSb-4rU',
-        tags: 'ernesto nazareth choro valsa maxixe odeon chorinho piano brasileiro chorinho classico clássica classica'
+        tags: 'ernesto nazareth choro valsa maxixe odeon chorinho piano brasileiro chorinho classico clássica classica popular'
     },
     {
         name: 'Zequinha de Abreu',
         about: 'Músico, compositor e instrumentista brasileiro, famoso por seus choros. É autor do icônico "Tico-Tico no Fubá", um dos choros mais conhecidos mundialmente. Zequinha de Abreu também foi organizador e regente de orquestras e bandas.',
         link: 'https://musicabrasilis.org.br/compositores/zequinha-de-abreu',
         video: 'https://www.youtube.com/watch?v=xfKIrZpZQ5c',
-        tags: 'zequinha de abreu choro tico tico no fubá música brasileira piano brasileiro chorinho classico clássica classica'
+        tags: 'zequinha de abreu choro tico tico no fubá música brasileira piano brasileiro chorinho classico clássica classica popular'
     },
     {
         name: 'Brasílio Itiberê da Cunha',
