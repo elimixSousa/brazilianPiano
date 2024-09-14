@@ -35,7 +35,7 @@ Free!
 
 ## Acknowledgments
 
-I would like to thank Alura and Google, who through the Dev Immersion with Google Gemini, inspired me to build this project. I sincerely hope this project inspires you all.
+I would like to thank Alura and Google, who through the Dev Immersion with Google Gemini, inspired me to build this project. I sincerely hope this project inspires you.
 A big hug to all of you! ;)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,5 +77,5 @@ Livre!
 
 ## Agradecimentos
 
-Agradeço a Alura e Google, que através da Imersão Dev com Google Gemini, me inspiraram a construir este projeto. Espero que sinceramente esse projeto inspire todos vocês.
+Agradeço a Alura e Google, que através da Imersão Dev com Google Gemini, me inspiraram a construir este projeto. Espero que sinceramente esse projeto inspire você.
 Um grande abraço pra todos vocês! ;)
